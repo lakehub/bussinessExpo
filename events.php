@@ -19,37 +19,10 @@
 	</style>
 	<body>
 		<header>
-			<div class="top-bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-7">
-                        
-                    </div>
-                    <div class="col-sm-5" style="padding-left: 6%;">
-                       <div class="social">
-                       		
-                            <ul class="social-share">
-                            	<li><i class="fa fa-phone-square" style="font-size: 20px;"></i> 0712 34 56 78</li>
-                            	
-                            	<li><a href="#"><i class="fa  fa-envelope" style="font-size: 20px;"></i></a></li>
-                                <li><a href="#"><i class="fa  fa-facebook" style="font-size: 20px;"></i></a></li>
-                                <li><a href="#"><i class="fa  fa-twitter" style="font-size: 20px;"></i></a></li>
-                                <li><a href="#"><i class="fa  fa-linkedin" style="font-size: 20px;"></i></a></li> 
-                                <li><a href="#"><i class="fa  fa-dribbble" style="font-size: 20px;"></i></a></li>
-                                <li><a href="#"><i class="fa  fa-skype" style="font-size: 20px;"></i></a></li>
-                            </ul>
-                            
-                       </div>
-                    </div>
-                    
-                </div>
-            </div><!--/.container-->
-        </div>
         <div class="clearfix"></div>
-		<nav class="navbar navbar-fixed-top" role="navigation">
-      <div class="container">
+		<nav class="navbar" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header" style="margin-top:2%;">
+        <div class="navbar-header" style="padding-top:1%;padding-left: 4%;">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-top">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -57,21 +30,34 @@
             <span class="icon-bar"></span>
           </button>
           <img src="images/logo.png"/>
-        </div>
-
+         </div>
+        
+        <div class="social pull-right">
+                            
+                            <ul class="social-share">
+                                <li><i class="fa fa-phone-square" style="font-size: 20px;"></i> 0712 34 56 78</li>
+                                <li><i class="fa  fa-envelope" style="font-size: 20px;"></i></li>
+                                <li><i class="fa  fa-facebook" style="font-size: 20px;"></i></li>
+                                <li><i class="fa  fa-twitter" style="font-size: 20px;"></i></li>
+                                <li><i class="fa  fa-linkedin" style="font-size: 20px;"></i></li> 
+                                <li><i class="fa  fa-dribbble" style="font-size: 20px;"></i></li>
+                                <li><i class="fa  fa-skype" style="font-size: 20px;"></i></li>
+                            </ul>
+                            
+         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
+
         <div class="collapse navbar-collapse" style="margin-top: 6%;">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li ><a href="" >About Us</a></li>
-            <li ><a href="#" >Events</a></li>
+            <li class="active"><a href="index.php">Home</a></li>
+            <li ><a href="#" >About Us</a></li>
+            <li ><a href="events.php" >Events</a></li>
             <li ><a href="#" >Exhibitors</a></li>
-            <li ><a href="gallery.php" >Gallery</a></li>
+             <li ><a href="gallery.php" >Gallery</a></li>
             <li ><a href="#" >Sponsors</a></li>
             <li ><a href="#" >Contacts</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
     </nav>
     </header>
 <!-- ++++++++++++++++++++++++++++++++++++start of section ++++++++++++++ -->
