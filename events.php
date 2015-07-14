@@ -62,7 +62,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" style="margin-top: 6%;">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li class="active"><a href="#">Home</a></li>
             <li ><a href="" >About Us</a></li>
             <li ><a href="#" >Events</a></li>
             <li ><a href="#" >Exhibitors</a></li>

@@ -69,8 +69,9 @@
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="index.php">Home</a></li>
             <li ><a href="#" >About Us</a></li>
-            <li ><a href="#" >Events</a></li>
+            <li ><a href="events.php" >Events</a></li>
             <li ><a href="#" >Exhibitors</a></li>
+             <li ><a href="gallery.php" >Gallery</a></li>
             <li ><a href="#" >Sponsors</a></li>
             <li ><a href="#" >Contacts</a></li>
           </ul>
