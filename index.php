@@ -113,7 +113,7 @@
     	<!-- Data metrics row 2-->
     	<div class="row">
     		<div class="col-sm-12">
-    			<h2 class="center" style="padding-bottom: 10px;"><a  style="font-size: 0.8em;background-color: #276380;padding: 8px 15px;color:#fff;text-decoration: none;cursor: pointer;font-size: 1em;">Sign up for free today</a> to attend our upcoming exhibition</h2> 
+    			<h2 class="center" style="padding-bottom: 10px;"><a  style="font-size: 0.8em;background-color: #276380;padding: 8px 15px;color:#fff;text-decoration: none;cursor: pointer;font-size: 1em;">Sign up for free today</a> <br/><br/>to attend our upcoming exhibition</h2> 
     			<p>
     				We encourage potential clients, business agents within and around the Counties, Government representatives and solutions and service provider professionals taking a leading role in the upcoming Bussiness Expo to attend the event
     			</p>
