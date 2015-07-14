@@ -63,9 +63,8 @@
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="index.html">Home</a></li>
             <li ><a href="#" >About Us</a></li>
-            <li ><a href="events.php" >Events</a></li>
+            <li ><a href="#" >Events</a></li>
             <li ><a href="#" >Exhibitors</a></li>
-            <li ><a href="#" >Gallery</a></li>
             <li ><a href="#" >Sponsors</a></li>
             <li ><a href="#" >Contacts</a></li>
           </ul>
@@ -189,22 +188,22 @@
             <div class="col-lg-12">
                 <ul class="pagination">
                     <li>
-                        <a href="#gallery.php">&laquo;</a>
+                        <a href="#">&laquo;</a>
                     </li>
                     <li class="active">
-                        <a href="#gallery1.php">1</a>
+                        <a href="#">1</a>
                     </li>
                     <li>
-                        <a href="#gallery2.php">2</a>
+                        <a href="#">2</a>
                     </li>
                     <li>
-                        <a href="#gallery3.php">3</a>
+                        <a href="#">3</a>
                     </li>
                     <li>
-                        <a href="#gallery4.php">4</a>
+                        <a href="#">4</a>
                     </li>
                     <li>
-                        <a href="#gallery5.php">5</a>
+                        <a href="#">5</a>
                     </li>
                     <li>
                         <a href="#">&raquo;</a>
