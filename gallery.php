@@ -7,6 +7,7 @@
     	<link href="css/prettyPhoto.css" rel="stylesheet">
     	<link href="css/responsive.css" rel="stylesheet">
     	<link href="css/main.css" rel="stylesheet">
+        <link href="css/3-col-portfolio.css" rel="stylesheet">
     	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Muli"/>
 		</head>
 		
@@ -212,15 +213,6 @@
         </div>
         </div>
         <!-- /.row -->
-
-        
-
-     
-
-
-
-
-
 
     </section>
 
