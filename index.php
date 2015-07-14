@@ -77,6 +77,7 @@
           </ul>
         </div><!-- /.navbar-collapse -->
     </nav>
+    <section>
     
     <!-- Image slider -->
     <div class="row">
@@ -233,6 +234,7 @@
     			
     		
     	</div>
+        </section>
     	<hr/>
     	<footer>
     		<div class="row" style="height: 4em;line-height: 4em;">
