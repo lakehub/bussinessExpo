@@ -16,12 +16,20 @@
 		.navbar-nav > li > a{
 			font-family:Muli;
 		}
-	</style>
-            <style>
+	
           #map-canvas {
+            
             width: 500px;
             height: 400px;
           }
+           #footer{
+                background-color:#D0D0CD; 
+                position:absolute; 
+                bottom:0; 
+                padding-right:180px;
+                color:#000;
+               }
+
            </style>
 
             <script src="https://maps.googleapis.com/maps/api/js"></script>
@@ -103,7 +111,7 @@
             <li><a href="images/stories/EXPECTED EXHIBITORS.pdf">Expected Exhibitors</a></li>
             </ul>
             <li ><a href="#" >Sponsors</a></li>
-            <li ><a href="#" >Contacts</a></li>
+            <li ><a href="contacts.php" >Contacts</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
               </div><!-- /.container -->
@@ -176,6 +184,9 @@ There will be something on offer for everyone – sponsors, exhibitors and visit
                             </div>
                         
                     </footer>
+
+                    
+
       </div><!-- /.container -->
     </nav>
     </header>
