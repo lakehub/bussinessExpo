@@ -33,6 +33,9 @@
                 padding-right:180px;
                 color:#000;
                }
+        .separate{
+                 padding-top: 50px;
+        }       
       
 
 
@@ -52,7 +55,7 @@
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
-	<body style="overflow-y:auto;">
+	<body style="overflow:hidden;">
          
 		<header>
 			<div class="top-bar">
@@ -68,12 +71,12 @@
                             	<li><i class="fa fa-phone-square" style="font-size: 20px;"></i> 0712 34 56 78</li>
                             	
                                 
-                            	<li><a href="#"><i class="fa  fa-envelope" style="font-size: 20px;"></i></a></li>
-                                <li><a href="#"><i class="fa  fa-facebook" style="font-size: 20px;"></i></a></li>
-                                <li><a href="#"><i class="fa  fa-twitter" style="font-size: 20px;"></i></a></li>
-                                <li><a href="#"><i class="fa  fa-linkedin" style="font-size: 20px;"></i></a></li> 
-                                <li><a href="#"><i class="fa  fa-dribbble" style="font-size: 20px;"></i></a></li>
-                                <li><a href="#"><i class="fa  fa-skype" style="font-size: 20px;"></i></a></li>
+                            	<a href="#"><i class="fa  fa-envelope" style="font-size: 20px;"></i></a>
+                                <a href="#"><i class="fa  fa-facebook" style="font-size: 20px;"></i></a>
+                                <a href="#"><i class="fa  fa-twitter" style="font-size: 20px;"></i></a>
+                                <a href="#"><i class="fa  fa-linkedin" style="font-size: 20px;"></i></a>
+                                <a href="#"><i class="fa  fa-dribbble" style="font-size: 20px;"></i></a>
+                                <a href="#"><i class="fa  fa-skype" style="font-size: 20px;"></i></a>
                                
                             </ul>
                             
@@ -113,8 +116,8 @@
 </header>
 
 
-<div class="row" style="padding-top:50px;">
- <div class="horizontal-line"><hr></div>
+<div class="row" style="padding-top:70px; padding-bottom:20px;">
+ <div class="separate">
     <div class="container" style="background-color:#D6E3E3; padding-bottom:0px; border:5px; border-color:#66FF33;">
       <div id="map-canvas"></div>
     <address>
@@ -148,6 +151,7 @@
     </address> 
 </div>  
 </div>
+</div>
 
 <div id="footer">
 <br>
@@ -172,6 +176,7 @@
                                 <a href="https://www.skype.com/"><i class="fa  fa-skype" style="font-size: 20px;"></i></a>
                             	    
 </div-->
+</div>
 </div>
 </div>
 </div>
