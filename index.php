@@ -11,7 +11,7 @@
     	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans"/>
     	
     	<style type="text/css">
-		.navbar-nav > li > a{
+		.navbar-inverse .navbar-nav > li > a{
 			font-family:Muli;
 		}
 		h2,h1,h3,h4,h5,h6{
@@ -38,8 +38,9 @@
 	</style>
 	</head>
 	<body style="overflow-x: hidden;">
+	<!--
 	<nav class="navbar navbar-fixed-top" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
+        <!-- Brand and toggle get grouped for better mobile display --
         <div class="navbar-header" style="padding-top:1%;padding-left: 4%;">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-top">
             <span class="sr-only">Toggle navigation</span>
@@ -49,38 +50,102 @@
           </button>
           <img src="images/logo.png"/>
          </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Collect the nav links, forms, and other content for toggling --
 
         <div class="collapse navbar-collapse" style="margin-top: 3%;">
           <ul class="navbar-nav navbar-right">
             <li class="active"><a href="index.php">Home</a></li>
-            <li ><a href="#" >About Us</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i style="font-size: 20px;" class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">For Teachers</a></li>
+                                <li><a href="#">For University Students</a></li>
+                                <li><a href="#">For Secondary Schools</a></li>
+                                <li><a href="#">For Primary Schools</a></li>
+                            </ul>
+            </li>
             <li ><a href="#" >Events</a></li>
             <li ><a href="#" >Exhibitors</a></li>
+            <li ><a href="gallery.php" >Gallery</a></li>
             <li ><a href="#" >Sponsors</a></li>
             <li ><a href="#" >Contacts</a></li>
           </ul>
-        </div><!-- /.navbar-collapse -->
+        </div>
     </nav>
     
-    <!-- Image slider -->
+    Image slider -->
+   
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.php">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Drop down1</a></li>
+                                <li><a href="#">Drop down2</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Events</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Exhibitors <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Drop down1</a></li>
+                                <li><a href="#">Drop down2</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="gallery.php">Gallery</a></li> 
+                        <li><a href="#">Contact</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav>
     <div class="row">
-    	<div id="main-slider" class="no-margin">
+    <div id="main-slider" class="no-margin">
         <div class="carousel slide">
             <div class="carousel-inner">
                 <div class="item active" style="background-image: url(images/2.jpg)">
-                    
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content center" style="position:absolute;top:10%;left:50%;width: 100%;">
+                                    <h1 style="font:Oxygen;color: #FFFFFF;" class="animation  animated-item-1">Bussiness Expo County Edition</h1>
+                                    <h2 class="animation animated-item-2">Lorem Ipsum</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
                 <div class="item" style="background-image: url(images/3.jpg)">
-                    
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content center" style="position:absolute;top:10%;left:50%;width: 100%;">
+                                    <h1 style="font:Oxygen;color: #FFFFFF;" class="animation animated-item-1">Bussiness Expo County Edition</h1>
+                                    <h2 class="animation animated-item-2">Lorem Ipsum</h2>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <a class="prev hidden-xs" href="#main-slider" data-slide="prev" style="outline: none;">
+        <a style="outline:none;" class="prev hidden-xs" href="#main-slider" data-slide="prev" >
             <i class="fa fa-chevron-left"></i>
         </a>
-        <a class="next hidden-xs" href="#main-slider" data-slide="next" style="outline: none;">
+        <a style="outline:none;" class="next hidden-xs" href="#main-slider" data-slide="next" >
             <i class="fa fa-chevron-right"></i>
         </a>
     </div>
@@ -296,10 +361,12 @@
     </div>
     </div>
     
-    <script src="js/jquery.min.js"></script>
+   <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
-    <script src="js/script.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
     
 	</body>
 </html>
