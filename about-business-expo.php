@@ -17,10 +17,14 @@
 			font-family:Muli;
 		}
 	
-          #map-canvas {
-            
-            width: 500px;
-            height: 400px;
+           #map-canvas{
+                    position:fixed;
+                    margin:60 60 10px 10px;
+                    bottom:20;
+                    width:400px;
+                    height:350px;
+                   }
+
           }
            #footer{
                 background-color:#D0D0CD; 
@@ -120,6 +124,7 @@
 
         <div class = "row ">
         <div class="col-md-8">
+         
         	<h3>ABOUT BUSINESS EXPO</h3>
         	<p>Business Expo County Edition is a comprehensive multi sector trade portal created to help business owners in all the Counties in Kenya grow their businesses by providing an avenue to meet potential clients and business agents within and around the Counties. Exhibitions are a quantifiable, proven and highly cost effective business tool that offer a one to one marketing experience that is second to none.</p>
         	<p>Its with this backdrop of information that Business Expo County Edition in collaboration with the County Government of Kisumu intends to hold this kind of its own Exhibition dubbed Business Expo, Kisumu County Edition 2015.</p>
@@ -138,13 +143,13 @@ There will be something on offer for everyone – sponsors, exhibitors and visit
         <div class="col-md-4">
 		<div class="thumbnail">
         <img class="img-rounded" data-src="holder.js/140x140" src="images/event-1.jpg"></div>
-        <div id="map-canvas"></div>
+        <div id="map-canvas">
         </div>
         
         </div>
         <div class="row">
         <div class="col-md-8"></div>
-        <div class="col-md-4"></div>
+        <div class="col-md-4"></div></div>
 </div>
         </div>
 
