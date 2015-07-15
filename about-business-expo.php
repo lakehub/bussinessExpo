@@ -162,9 +162,7 @@ There will be something on offer for everyone – sponsors, exhibitors and visit
                             <!--2nd column  of  the Page footer -->
                             <div class="col-md-4">
                             
-                                
-                                
-                                
+                                                       
                                 
                             </div>
                             
