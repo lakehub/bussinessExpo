@@ -56,7 +56,7 @@
             <span class="icon-bar"></span>
           </button>
           <img src="images/logo.png"/><p>Please contact us at the following address
-                       <a href="mailto: info@businessexpo.co.ke">info(at)businessexpo(dot)co(dot)ke</a></p> 
+                       <a href="mailto: info@businessexpo.co.ke">info(at)businessexpo.co.ke</a></p> 
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -82,10 +82,9 @@
             <li><a href="images/stories/EXPECTED EXHIBITORS.pdf">Expected Exhibitors</a></li>
             </ul>
             <li ><a href="#" >Sponsors</a></li>
-            <li ><a href="#" >Contacts</a></li>
+            <li ><a href="contacts.php" >Contacts</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
-        </header>
         <div class = "row ">
         <div class="col-md-8">
 
