@@ -105,8 +105,8 @@
     				We encourage potential clients, business agents within and around the Counties, Government representatives and solutions and service provider professionals taking a leading role in the upcoming Bussiness Expo to attend the event
     			</p>
     		</div>
-    		<div class="col-sm-12" >
-    			<img src="images/VECTOR.png" width="100%" height="400px"/>	
+    		<div class="col-sm-12" style="margin-left: 5%;">
+    			<img src="images/VECTOR.png" class="img-responsive"/>	
     		</div>
     		<div class="col-sm-12">
     			<h2 style="margin-bottom: -15px;">Welcome to Business Expo</h2>
@@ -200,11 +200,13 @@
 		</div
     	<!-- End of events -->
     	<!-- Footer -->
-    	<div class="row panel panel-default">
-    		<div class="col-sm-12">
+    	<div class="row ">
+    		<div class="col-sm-12 heading-title">
     			<h2 class="center">Our Sponsors</h2>
     		</div>
-    		<div class="col-sm-3" style="margin-left: 3%;">
+    	</div>
+    	<div class="row panel panel-default" style="padding:10px 0px; "> 
+    		<div class="col-sm-3" style="margin-left: 6%;">
     			<img src="images/sdg.jpeg" />
     		</div>
     		<div class="col-sm-1"></div>
@@ -215,24 +217,89 @@
     		<div class="col-sm-3">
     			<img src="images/county.jpeg" />
     		</div>
-    			
-    		
+    	</div>	
     	</div>
-    	<hr/>
-    	<footer>
-    		<div class="row" style="height: 4em;line-height: 4em;">
-    			<div class="col-sm-12">
-    					Copyright <i class="glyphicon glyphicon-copyright-mark"></i> Bussiness Expo County Edition 2015	
-    			</div>
-    		</div>
-    	</footer>
+ 
+    <!-- Footer -->
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="widget">
+              <h3>Bussiness Expo</h3>
+              <ul class="list-unstyled">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Exhibitors</a></li>
+                <li><a href="#">Sponsors</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- break -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="widget">
+              <h3>Sponsors</h3>
+              <ul class="list-unstyled">
+              	<li><a href="#">County Government of Kisumu</a></li>
+                <li><a href="#">Standard Media Group</a></li>
+                <li><a href="#">Stima Sacco</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- break -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="widget">
+              <h3>Exhibitors</h3>
+              <ul class="list-unstyled">
+                <li><a href="#">CFC Stanbic Bank</a></li>
+                <li><a href="#">Orange Telkom</a></li>
+                <li><a href="#">LakeHub</a></li>
+                <li><a href="#">Family Bank</a></li>
+                <li><a href="#">Vunduba Terrace Kisumu</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- break -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="widget">
+              <h2>Contacts</h2>
+              <address>
+                <strong>Bussiness Expo County Edition.</strong><br>
+                Kisumu<br>
+                <br>
+                <i class="fa fa-phone"></i> +254 20 2463040<br>
+                <i class="fa fa-2x fa-mobile-phone"></i> +254719742150/+254731332544<br>
+                <i class="fa fa-envelope"></i> info@businessexpo.co.ke / businessexpocountyedition@gmail.com
+              </address>
+            </div>
+          </div>
+          <!-- break -->
+        </div>
+        <!-- break -->
+
+        <!-- begin:copyright -->
+        <div class="row">
+          <div class="col-md-12 copyright">
+            <p>Bussiness Expo County Edition &copy; 2015, Inc. All Right Reserved.</p>
+            <a href="#top" class="btn btn-success scroltop"><i class="fa fa-angle-up"></i></a>
+            <ul class="list-inline social-links">
+              <li><a href="#" class="icon-twitter" rel="tooltip" title="" data-placement="bottom" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" class="icon-facebook" rel="tooltip" title="" data-placement="bottom" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" class="icon-gplus" rel="tooltip" title="" data-placement="bottom" data-original-title="Gplus"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- end:copyright -->
+
+      </div>
+    </div>
     </div>
     
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/wow.min.js"></script>
+    
+    <script src="js/script.js"></script>
     
 	</body>
 </html>

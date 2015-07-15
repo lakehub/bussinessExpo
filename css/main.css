@@ -4,6 +4,7 @@
   border-bottom: 3px solid rgb(39,99,128);
   width:100%;
   margin-bottom:0px;
+  background-color:#fff;
 }
 
 
@@ -11,7 +12,7 @@
 nav li {
   float: left;
   padding: 2rem;
-  margin-right: 1rem;
+  margin-right: 3rem;
   cursor: pointer;
   position: relative;
   list-style: none;
@@ -58,8 +59,9 @@ nav .navbar-nav li:hover:before {
 	padding-left:0px;
 }
 
-	#main-slider {
-  position: relative;
+#main-slider {
+  	position: relative;
+  	margin-top: 100px;
 }
 
 .no-margin {
@@ -69,7 +71,7 @@ nav .navbar-nav li:hover:before {
 
 /*********** Slider starts here ***********/
 #main-slider .carousel .carousel-content {
-  margin-top: 100px;
+  margin-top: 400px;
 }
 
 #main-slider .carousel .slide-margin{
@@ -236,3 +238,212 @@ nav .navbar-nav li:hover:before {
   text-align: center;
   padding-bottom: 55px;
 }
+
+.heading-title h2{
+	position: relative;
+	display: inline;
+	padding: 12px 20px;
+	font-size: 28px;
+	line-height: 32px;
+	text-transform: uppercase;
+	font-weight: 600;
+	border: 2px solid #898ba2;
+}
+
+.heading-title{
+	display: block;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+.heading-title.bg-white h2::before{
+	background: #fff;
+}
+
+.heading-title h2::before{
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 0;
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-top: -16px;
+	margin-left: -15px;
+	background: #f4f4f4;
+	-webkit-border-radius: 100%;
+	   -moz-border-radius: 100%;
+		-ms-border-radius: 100%;
+		 -o-border-radius: 100%;
+			border-radius: 100%;
+}
+
+.heading-title h2::after{
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 0;
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin-top: -7px;
+	margin-left: -6px;
+	background: #898ba2;
+	-webkit-border-radius: 100%;
+	   -moz-border-radius: 100%;
+		-ms-border-radius: 100%;
+		 -o-border-radius: 100%;
+			border-radius: 100%;
+}
+
+/************* Footer ************/
+#footer{
+	width: 100%;
+	padding: 60px 0 0;
+	background-color: #0f101a;
+	margin-top:20px;
+}
+
+#footer .widget:before,
+#footer .widget:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#footer .widget{
+	color:#d9dae9;
+	margin-bottom: 20px;
+}
+
+#footer .widget h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+	line-height: 36px;
+	font-weight: 800;
+	color: #d9dae9;
+	margin-bottom: 20px;
+}
+
+#footer .widget h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 800;
+	color: #d9dae9;
+	margin-bottom: 30px;
+}
+
+#footer .widget > ul,
+#footer .widget ul{
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#footer .widget > ul > li,
+#footer .widget > ul > li > a,
+#footer .widget ul > li,
+#footer .widget ul > li > a{
+	display: block;
+	padding: 2px 0;
+	font-size: 14px;
+	color: #898ba2;
+	font-weight: 400;
+}
+
+#footer .widget > ul > li > a::before,
+#footer .widget ul > li > a::before{
+	content: '\f10c';
+	font-family: 'FontAwesome';
+	font-size: 15px;
+	font-weight: 400;
+	padding-right: 15px;
+}
+
+#footer .widget > ul > li > a:hover,
+#footer .widget > ul > li > a:focus,
+#footer .widget ul > li > a:hover,
+#footer .widget ul > li > a:focus{
+	color: #37bc9b;
+}
+
+#footer .widget.widget_recent_comments > ul > li > a,
+#footer .widget.widget_recent_comments ul > li > a{
+	display: inline-block;
+}
+
+#footer .widget.widget_recent_comments > ul > li > a:before,
+#footer .widget.widget_recent_comments ul > li > a:before {
+	content: "";
+	font-family: 'Raleway', sans-serif;
+	padding-right: 0;
+}
+
+#footer .widget.widget_recent_comments > ul > li:before,
+#footer .widget.widget_recent_comments ul > li:before{
+	content: '\f05d';
+	font-family: 'FontAwesome';
+	font-size: 16px;
+	font-weight: 400;
+	padding-right: 15px;
+}
+
+
+/* 
+	==================
+	[11. COPYRIGHT]
+	==================
+*/
+.copyright{
+	position: relative;
+	margin-top: 60px;
+	padding: 60px 0 40px;
+	text-align: center;
+	border-top: 1px solid #2c3e50;
+}
+
+.copyright .scroltop{
+	position: absolute;
+	left: 50%;
+	top: -18px;
+	margin-left: -18px;
+}
+
+.copyright .social-links > li > a{
+	position: relative;
+	width: 40px;
+	height: 40px;
+	margin-top: 25px;
+	background: #6b6e80;
+	display: block;
+	border-radius: 100%;
+}
+
+.copyright .social-links > li > a > .fa{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 18px;
+	height: 18px;
+	margin-left: -9px;
+	margin-top: -9px;
+	color: #1b1d2a;
+	font-size: 19px;
+}
+
+.copyright .social-links > li > .icon-twitter:hover{
+	background: #4099ff;
+}
+
+.copyright .social-links > li > .icon-facebook:hover{
+	background: #4467ad;
+}
+
+.copyright .social-links > li > .icon-youtube:hover,
+.copyright .social-links > li > .icon-gplus:hover{
+	background: #ff4b4b;
+}
+
+/********* Footer ends here **************/
