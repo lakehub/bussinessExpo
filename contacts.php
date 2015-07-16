@@ -12,7 +12,7 @@
     </head>
 		
 	<style type="text/css">
-		.navbar-nav > li > a,{
+		.navbar-inverse .navbar-nav > li > a,{
 			font-family:Muli;
                         
 		}
@@ -55,9 +55,10 @@
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
-	<body style="overflow:hidden;">
+	<body style="overflow-x:hidden;">
          
-		<header>
+		<!--<header> -->
+     <!--
 			<div class="top-bar">
             <div class="container">
                 <div class="row">
@@ -84,12 +85,14 @@
                     </div>
                     
                 </div>
-            </div><!--/.container-->
+            </div><!--/.container--
         </div>
-        <div class="clearfix"></div>
+      -->
+        <!--div class="clearfix"></div-->
+     <!--   
 		<nav class="navbar navbar-fixed-top" role="navigation">
       <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
+        <!-- Brand and toggle get grouped for better mobile display --
         <div class="navbar-header" style="margin-top:2%;">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-top">
             <span class="sr-only">Toggle navigation</span>
@@ -100,7 +103,7 @@
           <img src="images/logo.png"/>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Collect the nav links, forms, and other content for toggling --
         <div class="collapse navbar-collapse" style="margin-top: 6%;">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="index.html">Home</a></li>
@@ -113,8 +116,45 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
     </nav>
-</header>
+  -->
+ <!--</header> -->
 
+<nav class="navbar navbar-fixed-top navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div>
+        
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.php">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Drop down1</a></li>
+                                <li><a href="#">Drop down2</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Events</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Exhibitors <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Drop down1</a></li>
+                                <li><a href="#">Drop down2</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="gallery.php">Gallery</a></li> 
+                        <li><a href="#">Contact</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav>
 
 <div class="row" style="padding-top:70px; padding-bottom:20px;">
  <div class="separate">
