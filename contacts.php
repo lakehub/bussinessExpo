@@ -131,16 +131,17 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Drop down1</a></li>
-                                <li><a href="#">Drop down2</a></li>
+                                <li><a href="about-business-expo.php">About Business Expo</a></li>
+                                <li><a href="why-exhibit.php">Why Exhibit</a></li>
+                                <li><a href="images/stories/GENERAL-pro.pdf">Expo Info Download</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Events</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Exhibitors <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Drop down1</a></li>
-                                <li><a href="#">Drop down2</a></li>
+                                <li><a href="about-business-expo.php">Exhibitor 2015</a></li>
+                                <li><a href="images/stories/GENERAL-pro.pdf">Expected Exhibitors</a></li>
                             </ul>
                         </li>
                         <li><a href="gallery.php">Gallery</a></li> 
