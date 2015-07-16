@@ -100,12 +100,28 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" style="margin-top: 6%;">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li ><a href="#" >About Us</a></li>
-            <li ><a href="#" >Events</a></li>
-            <li ><a href="#" >Exhibitors</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li class="dropdown">
+
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="about-business-expo.php">About Business Expo</a></li>
+					<li><a href="why-exhibit.php">Why Exhibit</a></li>
+					<li><a href="images/stories/GENERAL-pro.pdf">Expo Information Download</a></li>
+					
+				</ul>
+
+            </li>
+            <li ><a href="events.php" >Events</a></li>
+           <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Exhibitors<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+            <li ><a href="why-exhibit.php" >Exhibitor 2015</a></li>
+            <li><a href="images/stories/EXPECTED EXHIBITORS.pdf">Expected Exhibitors</a></li>
+            </ul>
+            </li>
             <li ><a href="#" >Sponsors</a></li>
-            <li ><a href="#" >Contacts</a></li>
+            <li ><a href="contacts.php" >Contacts</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
@@ -132,8 +148,8 @@
         Telephone: +254 20 2463040<br><br> 
         Mobile: +254719742150 or +254731332544<br><br>
 
-        Email 1: <a href="info@businessexpo.co.ke">info@businessexpo.co.ke</a><br>
-        Email 2: <a href="businessexpocountyedition@gmail.com">businessexpocountyedition@gmail.com</a><br>
+        Email 1: <a href="mailto: info@businessexpo.co.ke">info(at)businessexpo.co.ke</a><br>
+        Email 2: <a href="mailto: businessexpocountyedition@gmail.com">businessexpocountyedition(at)gmail.com</a><br>
         Facebook page: <a href="www.facebook.com">Business Expo, Kisumu County Edition 2015</a>
       </p>
      
