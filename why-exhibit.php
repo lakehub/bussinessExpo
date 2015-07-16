@@ -37,15 +37,7 @@
         
         <div class="social pull-right">
                             
-                            <ul class="social-share">
-                                <li><i class="fa fa-phone-square" style="font-size: 20px;"></i> 0712 34 56 78</li>
-                                <li><i class="fa  fa-envelope" style="font-size: 20px;"></i></li>
-                                <li><i class="fa  fa-facebook" style="font-size: 20px;"></i></li>
-                                <li><i class="fa  fa-twitter" style="font-size: 20px;"></i></li>
-                                <li><i class="fa  fa-linkedin" style="font-size: 20px;"></i></li> 
-                                <li><i class="fa  fa-dribbble" style="font-size: 20px;"></i></li>
-                                <li><i class="fa  fa-skype" style="font-size: 20px;"></i></li>
-                            </ul>
+                            
                             
          </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
