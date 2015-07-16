@@ -26,13 +26,7 @@
                     height:350px;
                    }
 
-        #footer{
-                background-color:#D0D0CD; 
-                position:absolute; 
-                bottom:0; 
-                padding-right:180px;
-                color:#000;
-               }
+        
         .separate{
                  padding-top: 50px;
         }       
@@ -193,29 +187,79 @@
 </div>
 </div>
 
-<div id="footer">
-<br>
-<div class="row" style="padding-bottom:10px;">
-<div class="container">
-<div class="col-md-4" style="padding-left:80px;">
- <p>&copy; 2015 Business Expo &middot; <a href="#">Terms</a></p>
-</div>
-<div class="col-md-4">
-<!--i class="fa fa-phone-square" style="font-size: 20px; padding-left:180px;"></i> 0712 34 56 78 
-</div -->
-<!--div class="col-md-4" style="padding-left:200px;">
-        
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="widget">
+              <h3>Bussiness Expo</h3>
+              <ul class="list-unstyled">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Exhibitors</a></li>
+                <li><a href="#">Sponsors</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- break -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="widget">
+              <h3>Sponsors</h3>
+              <ul class="list-unstyled">
+                <li><a href="#">County Government of Kisumu</a></li>
+                <li><a href="#">Standard Media Group</a></li>
+                <li><a href="#">Stima Sacco</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- break -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="widget">
+              <h3>Exhibitors</h3>
+              <ul class="list-unstyled">
+                <li><a href="#">CFC Stanbic Bank</a></li>
+                <li><a href="#">Orange Telkom</a></li>
+                <li><a href="#">LakeHub</a></li>
+                <li><a href="#">Family Bank</a></li>
+                <li><a href="#">Vunduba Terrace Kisumu</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- break -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="widget">
+              <h2>Contacts</h2>
+              <address>
+                <strong>Bussiness Expo County Edition.</strong><br>
+                Kisumu<br>
+                <br>
+                <i class="fa fa-phone"></i> +254 20 2463040<br>
+                <i class="fa fa-2x fa-mobile-phone"></i> +254719742150/+254731332544<br>
+                <i class="fa fa-envelope"></i> info@businessexpo.co.ke / businessexpocountyedition@gmail.com
+              </address>
+            </div>
+          </div>
+          <!-- break -->
+        </div>
+        <!-- break -->
 
-                              
-                            	
-                                <a href="https://www.mail.google.com/" style="padding-right:3px; padding-:3px;"><i class="fa  fa-envelope" style="font-size: 20px; "></i></a>
-                                <a href="https://www.facebook.com/"><i class="fa  fa-facebook hvr-shutter-out-horizontal:before" style="font-size: 20px;"></i></a>
-                                <a href="https://www.twitter.com/"><i class="fa  fa-twitter" style="font-size: 20px;"></i></a>
-                                <a href="https://www.linkedin.com/"><i class="fa  fa-linkedin" style="font-size: 20px;"></i></a>
-                                <a href="https://www.dribbble.com/"><i class="fa  fa-dribbble" style="font-size: 20px;"></i></a>
-                                <a href="https://www.skype.com/"><i class="fa  fa-skype" style="font-size: 20px;"></i></a>
-                            	    
-</div-->
+        <!-- begin:copyright -->
+        <div class="row">
+          <div class="col-md-12 copyright">
+            <p>Bussiness Expo County Edition &copy; 2015, Inc. All Right Reserved.</p>
+            <a href="#top" class="btn btn-success scroltop"><i class="fa fa-angle-up"></i></a>
+            <ul class="list-inline social-links">
+              <li><a href="#" class="icon-twitter" rel="tooltip" title="" data-placement="bottom" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" class="icon-facebook" rel="tooltip" title="" data-placement="bottom" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" class="icon-gplus" rel="tooltip" title="" data-placement="bottom" data-original-title="Gplus"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- end:copyright -->
+
+      </div>
+    </div>
 </div>
 </div>
 </div>
