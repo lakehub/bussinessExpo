@@ -172,7 +172,9 @@
 
         Email 1: <a href="info@businessexpo.co.ke">info@businessexpo.co.ke</a><br>
         Email 2: <a href="businessexpocountyedition@gmail.com">businessexpocountyedition@gmail.com</a><br>
-        Facebook page: <a href="www.facebook.com">Business Expo, Kisumu County Edition 2015</a>
+        Facebook page: <a href="https://web.facebook.com/kisumuexpo
+">Business Expo, Kisumu County Edition 2015</a><br>
+        Twitter: <a href=" https://twitter.com/CountyBizExpo">CountyBizExpo</a>
       </p>
      
       <!--div class="mail" >
